@@ -1,0 +1,6 @@
+.root {
+  @apply text-white text-[16px] font-semibold py-[9px] 
+  w-[190px] h-[55px] rounded-full flex justify-center items-center gap-[12px]
+  bg-purple-color hover:bg-purple-color-hover transition ease-in-out
+  active:border-btn-pressed active:border-[3px] lg:bg-hero;
+}
