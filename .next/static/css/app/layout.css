@@ -903,17 +903,11 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(252 251 250 / var(--tw-bg-opacity));
 }
-.bg-inherit {
-  background-color: inherit;
-}
 .bg-hero-mob {
   background-image: url('/assets/background-mobile.png');
 }
 .bg-main {
   background-image: url('/assets/top-bg.png');
-}
-.bg-cover {
-  background-size: cover;
 }
 .bg-contain {
   background-size: contain;
@@ -923,12 +917,6 @@ video {
 }
 .bg-left-bottom {
   background-position: left bottom;
-}
-.bg-bottom {
-  background-position: bottom;
-}
-.bg-right {
-  background-position: right;
 }
 .bg-right-bottom {
   background-position: right bottom;
@@ -970,10 +958,6 @@ video {
 .py-\[9px\] {
   padding-top: 9px;
   padding-bottom: 9px;
-}
-.py-4 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
 }
 .pb-\[64px\] {
   padding-bottom: 64px;
@@ -1267,32 +1251,8 @@ input {
     height: 650px;
   }
 
-  .md\:w-\[500px\] {
-    width: 500px;
-  }
-
-  .md\:w-\[80\%\] {
-    width: 80%;
-  }
-
-  .md\:w-\[75\%\] {
-    width: 75%;
-  }
-
   .md\:flex-nowrap {
     flex-wrap: nowrap;
-  }
-
-  .md\:bg-hero {
-    background-image: url('/assets/background.png');
-  }
-
-  .md\:bg-contain {
-    background-size: contain;
-  }
-
-  .md\:bg-bottom {
-    background-position: bottom;
   }
 
   .md\:px-0 {
@@ -1351,6 +1311,10 @@ input {
     width: 412px;
   }
 
+  .lg\:w-\[420px\] {
+    width: 420px;
+  }
+
   .lg\:w-\[445px\] {
     width: 445px;
   }
@@ -1361,18 +1325,6 @@ input {
 
   .lg\:w-\[765px\] {
     width: 765px;
-  }
-
-  .lg\:w-\[78\%\] {
-    width: 78%;
-  }
-
-  .lg\:w-\[75\%\] {
-    width: 75%;
-  }
-
-  .lg\:w-\[420px\] {
-    width: 420px;
   }
 
   .lg\:flex-nowrap {
@@ -1397,10 +1349,6 @@ input {
 
   .lg\:bg-cover {
     background-size: cover;
-  }
-
-  .lg\:bg-bottom {
-    background-position: bottom;
   }
 
   .lg\:bg-left-bottom {
