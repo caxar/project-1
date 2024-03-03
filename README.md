@@ -15,7 +15,7 @@
    ![image](https://github.com/caxar/project-1/assets/45434213/d593e564-1c85-4006-b14b-15cfd1c46835)
 
 
-## Примечание 
+## Запуск проекта
 
 - 1.Для запуска проекта необходимо склонировать проект командой `git clone https://github.com/caxar/project-1.git`
 - 2.Для скачивания нужных пакетов для запуска `npm init`
